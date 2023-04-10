@@ -1,0 +1,65 @@
+#navbar{
+    background-color: rgb(8, 118, 118);
+    
+    margin-bottom: 20px;
+    padding: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 75px;
+
+
+  }
+ 
+  
+  #client{
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    text-decoration-line: underline;
+
+    text-decoration-color: brown;
+    
+  }
+  #logos{
+    height: 80px;
+  }
+  #contact{
+    color: black;
+    margin-top: 50px;
+    text-decoration-line: underline;
+    text-decoration-color:brown ;
+  }
+  #card1{
+    height: 180px;
+    width: auto;
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  #loc{
+    color: brown;
+    height: 30px;
+  }
+  #card2{
+    height: 180px;
+    width: 460px;
+    margin-left:110px ;
+    margin-top: 3px;
+  }
+  #card3{
+    height: 180px;
+    width: 460px;
+    margin-left: 462px;
+    margin-top: -175px;
+  }
+  #mail{
+    color: brown;
+    height: 30px;
+  }
+  #phone{
+    color: brown;
+    height: 30px;
+
+  }
+  #carouselExampleInterval{
+    scroll-behavior: unset;
+  }

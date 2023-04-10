@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+    <script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
+    <link href="{% static 'fontawesomefree/css/all.min.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+<style>
+ 
+  #card1{
+    height: 220px;
+    width: 300px;
+    margin-left: 450px;
+    margin-top: 150px;
+  }
+  #img{
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+  form{
+    text-align: center;
+    
+  }
+ 
+  label::after{
+    
+    content: " *";
+    color: red;
+    font-weight: bold;
+  }
+  label{
+    display: block;
+  }
+  body{
+    background-image: url("{% static 'images/logo.png' %}");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  
+</style>
+    
+    
+</head>
+<!-- Nav Bar -->
+    
+<nav class="navbar  bg-light fixed-top" id="navbar">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img
+        src="{% static 'images/logo.png' %}"
+        height="50px"
+        alt="MDB Logo"
+        loading="lazy"
+        width="150px"
+      />
+   
+    </a>
+    <div>
+      <div>
+        
+        
+        <a href="{% url 'home' %}" style="padding-right: 15px;"><button type="button" class="btn btn-light ">logout</button></a>
+      </div>
+    </div>
+
+    
+  </div>
+</nav>
+
+<body>
+  <div class="card"  id="card1">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Sundar_pichai.png" height="130px" width="150px" alt="Naveen" id="img">
+    <h1 style="font-size: large; text-align:center;" class='mt-2'>Sundar Pichai</h1>
+    <h1 style="font-size: small; text-align:center;" class='mt-2'>Ceo</h1>
+  
+</div>
+<div>
+  <h5>Naveen Groups is an Indian multinational technology company focusing on online advertising, search engine technology, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence, and consumer electronics.</h5>
+  <h5>Headquarters:  Proddatur , Andhra Pradesh, India</h5>
+  <h5>Founders: Chakri Naveen</h5>
+  <h5>CEO: Sundar Pichai</h5>
+</div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- script -->
+    <script src="{% static 'js/mdb.min.js' %}"></script>
+
+    
+</body>
+</html>
